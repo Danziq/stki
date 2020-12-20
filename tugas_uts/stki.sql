@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 27 Sep 2020 pada 23.49
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.6
+-- Generation Time: Dec 20, 2020 at 11:57 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `tugas_uts`
+-- Database: `stki`
 --
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `berita`
+-- Table structure for table `berita`
 --
 
 CREATE TABLE `berita` (
@@ -35,35 +35,35 @@ CREATE TABLE `berita` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `berita`
+-- Dumping data for table `berita`
 --
 
 INSERT INTO `berita` (`id`, `judul`, `isi`, `url`) VALUES
-(1, 'Roda kursi kantor 1 set (isi 5 buah) | Shopee Indonesia', 'Cocok untuk semua jenis kursi kerja Tidak perlu kursi baru cukup ganti roda serasa seperti baru kembali #rodakursi #roda #murahmeriah #surabaya #ootd ...', 'https://shopee.co.id/Roda-kursi-kantor-1-set-(isi-5-buah)-i.5916531.46057265'),
-(2, 'RODA ETALASE BAUT BULAT KARET SKK / RODA KURSI ...', 'RODA SKK 1 SET ISI 4 PCS tipe baut diameter roda:5 cm bahan roda:karet Dapat digunakan pada etalase, kursi sofa,meja,kaki kulkas dan lain lain Kwalitas ...', 'https://shopee.co.id/RODA-ETALASE-BAUT-BULAT-KARET-SKK-RODA-KURSI-LEMARI-RAK-ISI-4-PCS-i.10619021.866295462'),
-(3, 'Harga Kursi Kantor Terbaru di Indonesia September 2020', 'Kursi Kerja Tanpa Roda: Beberapa pilihan kursi kerja tidak beroda yang bisa Anda beli secara online di iprice Indonesia adalah Savello Office Chair Trinity DX ...', 'https://iprice.co.id/ruang-kerja/kursi/'),
-(4, 'Blog - Roda Adalah “Sumber Masalah” Pada Kursi Kantor, Ini ...', 'Oct 16, 2019 - Kursi kantor Anda terasa sulit digerakkan? Bisa jadi masalahnya ada pada roda kursinya, lho! Gudang Furniture akan memaparkan beberapa ...', 'https://gudangfurniture.com/blog/article/roda-adalah-sumber-masalah-pada-kursi-kantor-ini-lho-cara-merawatnya'),
-(5, 'Jual Galena Kursi Pispot Aluminum Dengan Roda Fs 699 L ...', 'Rangka kursi terbuat dari material aluminium dengan pijakan kaki yang dapat dilipat serta roda agar lebih mudah dipindahkan. Kursi Pispot ini juga dilengkapi ...\r\n', 'https://www.ruparupa.com/galena-kursi-pispot-aluminum-dengan-roda-fs699l.html'),
-(6, 'Jual Kursi Kantor Ergosit Terbaru - Harga Promo | Blibli.com', 'Jual Kursi Kantor Ergosit Terbaru - Daftar Harga Terupdate & Terbaru, Harga Promo & Diskon, ... Ergosit Castor Yc 6381 Part atau Roda Kursi Kantor [5 pcs].', 'https://www.blibli.com/brand/ergosit'),
-(7, 'Jual Kursi Kantor Minimalis Terlengkap | IKEA Indonesia', 'Lihat katalog kursi kantor IKEA untuk keperluan bisnis Anda. ... Kursi konferensi dengan roda, veneer kayu ash diwarnai hitam/Gunnared abu-abu tua. Rp 3.299.', 'https://www.ikea.co.id/in/produk/perabotan-kantor/kursi-kantor'),
-(8, 'jual kursi kantor roda - Home Furniture Jepara', 'Home / Products tagged “jual kursi kantor roda”. Filter. Showing the single result. Default sorting, Sort by popularity, Sort by average rating, Sort by latest, Sort by ...', 'https://www.homefurniturejepara.com/product-tag/jual-kursi-kantor-roda/'),
-(9, 'Chitose NA - PT. Chitose Internasional Tbk', 'Saat ini perusahaan kami menggunakan kursi chitose tipe NA. Yang mau ditanyakan, bagaimana dan di mana bisa dibeli castor/roda untuk kursi tipe tersebut?', 'https://www.chitose-indonesia.com/produk/na/'),
-(10, 'Kursi Kamar Mandi ini kami Jual dengan Harga Ekonomis', 'Toko penjual alat bantu kursi kamar mandi pasien untuk BAB dengan harga yang terjangkau. spesifikasi kursi kamar mandi ini secara detail ada di website ini.', 'https://www.alatkesehatan.id/toko/kursi-kamar-mandi-13122/'),
-(11, 'Jual Kursi Roda di Semarang - Harga Terbaru 2020 - Tokopedia', 'Beli Kursi Roda Online terdekat di Semarang berkualitas dengan harga murah terbaru 2020 di Tokopedia! Pembayaran mudah, pengiriman cepat & bisa cicil ...', 'https://www.tokopedia.com/find/kursi-roda/c/semarang'),
-(12, 'Jual Kursi Roda Standar Murah - Harga Terbaru 2020', 'Beli Kursi Roda Standar Online berkualitas dengan harga murah terbaru 2020 di Tokopedia! Pembayaran mudah, pengiriman cepat & bisa cicil 0%.', 'https://www.tokopedia.com/find/kursi-roda-standar'),
-(13, 'Jual Kursi Roda Murah dan Lengkap September 2020 ...', 'Mau tahu kursi roda merek apa saja yang dijual di Bukalapak? Ini dia. Merk dan Harga Kursi Roda Terbaik. Jenis Kursi Roda, Harga. Kursi Roda Standar SELLA ...', 'https://www.bukalapak.com/tag/kursi-roda'),
-(14, 'Jual Kursi Roda (Wheel Chair) Terbaik | Lazada.co.id', 'Belanja Online Kursi Roda Medis Lipat / Kursi Roda Traveling dari Brand Terbaik Termurah di Lazada 9.9 Big Sale! | Gratis Ongkir ? Voucher Diskon.', 'https://www.lazada.co.id/beli-kursi-roda/'),
-(15, 'Daftar Kursi Roda dengan harga murah dan bagus Agustus ...', 'Daftar Kursi Roda terbaik dan murah 2020 dijual di Indonesia. Cek beragam variasi aksesoris dengan harga terbaru di Priceprice.com.', 'https://id.priceprice.com/kesehatan-perawatan-pribadi/?sub-category=perlengkapan-medis-166%2Cwheelchairs-499'),
-(16, 'Toko Kursi Roda di Semarang - Distributor Alat Kesehatan', 'Kami toko kursi roda di Semarang yang jual kursi roda murah dan lengkap yang beralamat di Ruko Siliwangi Square Kav.2, Jl. Jenderal Sudirman No.322 ...', 'https://www.alatkesehatan.id/tag-produk/toko-kursi-roda-semarang-distributor-kursi-roda-jawa-tengah/'),
-(17, 'Jual Kursi Roda Online - Harga Menarik, Berkualitas | Blibli.com', 'Jual Kursi Roda Online Terbaru - Harga Murah & Berkualitas, Beli Online di Blibli.com, Produk Original & Bergaransi, Gratis Ongkir, Cicilan 0%\r\n', 'https://www.blibli.com/jual/kursi-roda'),
-(18, 'Distributor Kursi Roda - Jual Murah Harga Grosir | Ralali.com', 'Jual kursi roda murah harga grosir. Tersedia jenis elektrik, standard dan lainnya dari berbagai merek ternama. Cek daftar harga kursi roda terbaru disini.\r\n', 'https://www.ralali.com/c/kursi-roda-hl0555'),
-(19, 'Katalog Harga Kursi Roda - Promo Kosmetik dan Skin Care ...', 'Kursi roda adalah alat bantu yang digunakan oleh orang yang mengalami kesulitan berjalan menggunakan kaki, baik dikareanakan oleh penyakit, cedera, ...', 'https://iprice.co.id/alat-medis/kursi-roda/'),
-(20, 'Kursi Roda di Semarang Kota - OLX Murah Dengan Harga ...', 'Temukan Kursi Roda di Semarang Kota dapatkan hanya di OLX.co.id. Jutaan iklan Kursi Roda terbaru ditayangkan setiap harinya di OLX Murah dengan harga ...\r\n', 'https://www.olx.co.id/semarang-kota_g4000065/q-kursi-roda');
+(1, 'Jual Asus GeForce GTX750-DF-1GB 128Bit DDR5', 'WE GIVE THE BEST FOR YOU DEAR.\r\nTHANKS & HAPPY SHOPPING.\r\n\r\n100% ORIGINAL PRODUCT.\r\nWE DON\'T SELL FAKE PRODUCT\r\n\r\nAsus GeForce GTX750-DF-1GD5.\r\n1GB | 128BIT | DDR5.\r\n\r\n    Dual fans increase thermal efficiency with 11% better cooling and 14% lower noise emissions\r\n    Power Connectors = tidak butuh power pin / hemat daya.\r\n    Output : D-SUB, DVI, HDMI\r\n    Recommended PSU : 400W Pure.\r\n\r\nDetail part\r\n\r\n    Kondisi bekas.\r\n    100% Tested berfungsi dengan normal.\r\n    Batangan / unit vga only\r\n    Packing kita menggunakan custom boxes & air buble dipastikan aman sampai tujuan.\r\n    CD Driver tidak ada ( Driver terbaru bisa didownload di web geforce)\r\n    Details produk silahkan check photo & check link video.\r\n    Garansi personal 7 hari setelah barang diterima.\r\n\r\nSilahkan cek link dibawah untuk model graphics card yang lainnya bossquee.\r\nhttps://www.bukalapak.com/u/pickomtech_batam/label/graphics-cards?from=label-list\r\n\r\nCatatan penting.\r\nKetentuan garansi berlaku sesuai catatan pelapak.\r\n\r\nThanks.', 'https://www.bukalapak.com/p/komputer/hardware/vga/2m7sd80-jual-asus-geforce-gtx750-df-1gb-128bit-ddr5?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=2&cf=1&ssa=1&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(2, 'Jual Asus EX-GTX1050TI-4G 4GB GDDR5', 'ASUS Expedition GeForce GTX 1050 Ti eSports gaming graphics card 4GB GDDR5\r\nDunia eksklusif Kapal perang mengundang kode gratis. Diana Cruiser dan 15-hari Akun Premium (senilai USD11) * kode permainan penebusan dimulai dari 2015/07/31 ke 2017/01/30. Silakan menantikan di /event untuk rincian.\r\nDual-bola bantalan 0dB Fan berjalan lancar dengan mengurangi gesekan, lebih meningkatkan 2X lagi umur kartu dan efisiensi pendinginan. Bermain dalam diam dengan fans 0dB.\r\nPlug mudah dan bermain game tanpa catu daya tambahan yang diperlukan.\r\nIndustri hanya Auto-Ekstrim Teknologi dengan Super Alloy Daya II memberikan kualitas premium dan keandalan terbaik.\r\nGPU Tweak II dengan XSplit Gamecaster memberikan tweaking kinerja intuitif dan instan streaming yang gameplay.\r\nNVIDIA Ansel cara baru yang revolusioner untuk menangkap dalam game screenshot.\r\nNVIDIA GameWorks memberikan pengalaman interaktif dan sinematik, serta gameplay sangat halus.\r\nMembangun untuk Non-Stop Action\r\nkartu grafis ASUS Ekspedisi dibuat untuk tindakan non-stop, direkayasa dengan non-stop daya tahan untuk 2X kehandalan lagi umur dan premium. Kami bahkan menguji kartu untuk batas, dengan 144 jam tes diskless-sistem dan pemeriksaan ekstensif untuk kompatibilitas dengan permainan atas. Sementara GPU Tweak II dengan XSplit Gamecaster untuk memberikan non-stop pengalaman gaming dan real-time streaming.', 'https://www.bukalapak.com/p/komputer/hardware/vga/2geqpj9-jual-asus-ex-gtx1050ti-4g-4gb-gddr5?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=8&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(3, 'Jual Asus DUAL-GTX1060-O3G 3GB Dual-Fan OC Edition Graphics Card ', 'ASUS Dual series of GeForce GTX 1060 graphics provide sweet spot performance\r\n1809 MHz Meningkatkan Jam di OC modefor kinerja dan gaming yang luar biasa pengalaman.\r\naliran udara dipatenkan Wing-Blade Fansfor max dengan tekanan udara 105% lebih.\r\nSempurna cocok dengan ASUS X99 A IImotherboards untuk gaya dioptimalkan dan kinerja.\r\nIndustri Hanya Auto-Ekstrim Teknologi dengan kualitas premium Super Alloy Daya IIdelivers dan kehandalan terbaik.\r\nVR-Friendly HDMI Portsfor immersive pengalaman virtual reality.\r\nGPU Tweak II dengan XSplit Gamecasterprovides kinerja intuitif tweaking dan instan streaming yang gameplay.', 'https://www.bukalapak.com/p/komputer/hardware/vga/2ges49s-jual-asus-dual-gtx1060-o3g-3gb-dual-fan-oc-edition-graphics-card?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=7&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(4, 'Jual ASUS GTX 1070TI 8GB DDR5 STRIX ROG ', 'bekas pemakaian mining, dijamin aman\r\n\r\nsebelum dikirim sudah di tes terlebih dahulu\r\n\r\npengiriman wajib asuransi\r\n\r\nGaransi ada yg 2020-2021\r\n\r\nMohon Cek Ketersediaian stock sblm order', 'https://www.bukalapak.com/p/komputer/hardware/vga/2lkp09s-jual-asus-gtx-1070ti-8gb-ddr5-strix-rog?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=6&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(5, 'Jual ASUS GTX 1070 8GB DDR5 STRIX ROG ', 'bekas pemakaian mining, dijamin aman\r\n\r\n\r\n\r\nsebelum dikirim sudah di tes terlebih dahulu\r\n\r\n\r\n\r\npengiriman wajib asuransi\r\n\r\n\r\n\r\nyg garansi sisa 1 tp pasta kering\r\n\r\nyg non garansi sisa 2 minus lampu led dkt port mati ama rada karat dikit.\r\n\r\n\r\n\r\nMohon Cek Ketersediaian stock sblm order', 'https://www.bukalapak.com/p/komputer/hardware/vga/2lkesog-jual-asus-gtx-1070-8gb-ddr5-strix-rog?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=5&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(6, 'Jual ASUS Radeon RX 470 4GB DDR5 lebih kencang drpd RX 460 GTX 1050 1060 ', 'ASUS Radeon RX 470 4GB DDR5 256bit\r\n\r\nULTRA COOL Heatsink\r\n\r\nTAMPILAN KEREN DAN TEMPERATUR SANGAT ADEM\r\n\r\nKeunggulan vga ASUS RX 470 ini dibanding yang lain adalah temperaturnya sangat adem karena kualitas coolernya sangat bagus dan tidak murahan. Tampilannya pun keren dengan motif warna merah.\r\n\r\nSuhu full load vga ASUS RX470 ini cuma kisaran 54C yg berarti 20C lebih rendah dibanding vga RX 470 merk lain pada umumnya (biasanya merk lain kisaran 75C)\r\n\r\nIni karena kualitas komponen vga ASUS yg lebih bagus dibanding merk lain.\r\n\r\nKUALITAS KOMPONEN YG LEBIH BAGUS DAN LEBIH AWET\r\n\r\nASUS RX 470 dibuat dengan standard industri komponen yg berkualitas tinggi, yaitu Super Alloy Power II untuk menjamin keawetan dan realibilitas jangka panjang\r\n\r\nFAN YANG LEBIH AWET DENGAN SERTIFIKASI IP5x\r\n\r\nBerbeda dengan vga card lain yg sering rusak fan nya yg berakibat fatal, ASUS RX 470 mengunakan fan jenis Dual Ball Bearing yg lebih awet.\r\n\r\nSelain itu fan yg digunakan memiliki standard IP5x-certified yg artinya lolos uji sertifikasi anti debu.\r\n\r\nJadi mustahil fan nya bisa rusak walaupun digunakan dalam kondisi berdebu.', 'https://www.bukalapak.com/p/komputer/hardware/vga/284f9ur-jual-asus-radeon-rx-470-4gb-ddr5-lebih-kencang-drpd-rx-460-gtx-1050-1060?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=13&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(7, 'Asus GT 710 2GB DDR3 VGA Card', 'Garansi Resmi 3 Tahun\r\n\r\nSilakan Komfirmasi Persediaan Stok Barang Sebelum Melakukan pembelian\r\nTrimaksih...\r\n\r\nGraphics Engine : NVIDIA GeForce GT 710\r\nBus Standard : PCI Express 2.0\r\nOpenGL : OpenGL4.4\r\nVideo Memory : DDR3 2GB\r\nEngine Clock : 954 MHz\r\nCUDA Core : 192\r\nMemory Clock : 1800 MHz\r\nMemory Interface: 64-bit\r\nResolution : DVI Max Resolution : 2560x1600\r\nInterface : D-Sub Output : Yes x 1 (Native)\r\nDVI Output : Yes x 1 (Native) (DVI-D)\r\nHDMI Output : Yes x 1 (Native)\r\nHDCP Support : Yes\r\nSoftware : ASUS GPU Tweak II & Driver\r\nDimensions : 5.4 \" x 2.9 \" x 1.3 \" Inch\r\n13.7 x 6.9 x3.3 Centimeter', 'https://www.bukalapak.com/p/komputer/hardware/vga/t5vzcu-jual-asus-gt-710-2gb-ddr3-vga-card?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=11&cf=1&ssa=1&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(8, 'Jual GTX 1050 Ti 4GB Asus Expedition ', 'Asus GTX 1050 Ti 4GB Expedition\r\n\r\nGaransi 3 Tahun\r\n\r\nmasih Segel', 'https://www.bukalapak.com/p/komputer/hardware/vga/2dv8wog-jual-gtx-1050-ti-4gb-asus-expedition?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=10&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(9, 'Jual vga asus 1 gb ddr 3 64 bit ', 'vga asus 1 gb ddr 3 64 bit\r\n\r\nbarang mulus like new\r\nbarang sudah di test normal dan berjalan dengan lancar\r\nsuport\r\n-hdmi\r\n-vga\r\n-dvi\r\n\r\ngaransi 1 minggu', 'https://www.bukalapak.com/p/komputer/hardware/vga/1eah6b5-jual-vga-asus-1-gb-ddr-3-64-bit?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=19&cf=1&ssa=1&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(10, 'Jual Asus Gigabyte GT750 TI 2GB Mulus ', 'Zotac GTX 750Ti OC DDR5 :\r\n\r\n\r\n\r\ncore clock : 1072Mhz\r\n\r\nmemory clock : 5400Mhz\r\n\r\ncapacity : 2048MB\r\n\r\nbus width : 128bit\r\n\r\nband width : 86.4GB/s\r\n\r\ntype : GDDR5\r\n\r\nkondisi : mulus bagus\r\n\r\naksesoris : free kabel power 6pin tambahan\r\n\r\ngaransi : 1 bula', 'https://www.bukalapak.com/p/komputer/hardware/vga/1tmkfyp-jual-asus-gigabyte-gt750-ti-2gb-mulus?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=24&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(11, 'Jual NVIDIA Asus GTX 1060 6GB OC Edition ', '1 unit Asus GTX 1060 6 GB OC Edition\r\n\r\nGaransi masih panjang bor sampai May 2021 (ASTRINDO)\r\n\r\nBarang dijamin mulus, mantap, pemakaian normal dan game Dota 2, CS:GO, GTA V\r\n\r\n\r\n\r\nnego halus wa aja\r\n\r\n\r\n\r\nCOD di kelapa gading', 'https://www.bukalapak.com/p/komputer/hardware/vga/221bmxm-jual-nvidia-asus-gtx-1060-6gb-oc-edition?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=23&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(12, 'Asus Rx570 4gb rx 570 4gb expedition MURAH ', 'second fullset like new\r\ngaransi asus hongkong sampai 2021\r\nbios ori\r\nsudah lulus tes QC toko.\r\ngaransi toko 2 minggu uang kembali atau tuker barang\r\nHarga sudah Nett\r\nTerima Kasih untuk pengertiannya', 'https://www.bukalapak.com/p/komputer/hardware/vga/25widjy-jual-asus-rx570-4gb-rx-570-4gb-expedition-murah?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=21&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(13, 'VGA Nvidia Asus GT210 1GB 64BIT DDR3 ', 'vga nvidia lumayan nih gan.\r\nAsus GT 210 1GB 64BIT DDR3\r\n\r\nKondisi : ok\r\nKelengkapan : unit vga saja\r\nGaransi : 3 hari', 'https://www.bukalapak.com/p/komputer/hardware/vga/90xd7-jual-vga-nvidia-asus-gt210-1gb-64bit-ddr3?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=4&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(14, 'Asus Strix GTX 1050 ti 4gb GDDR5 ', 'Spesifikasi\r\nKategori	:	VGA\r\nBerat	:	1 kilogram\r\nAsal Barang	:	Lokal\r\nBrand	:	Asus\r\nDeskripsi\r\ngaransi resmi Asus sampai 2020\r\nVGA only', 'https://www.bukalapak.com/p/komputer/hardware/vga/1s5rhsp-jual-asus-strix-gtx-1050-ti-4gb-gddr5?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=2&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(15, 'VGA NVIDIA ASUS STRIX GTX 1070 8GB OC TRIPLE FAN ', 'Nvidia Geforce Asus Strix Gtx 1070 OC 8GB DDR5\r\nPembelian Januari 2018\r\nKondisi normal tested ,pemakaian gaming\r\nFull set dus dan kitab\'\'\r\nGaransi 3 tahun ASUS indonesia sampai Agustus 2020\r\n\r\nMohon tanyakan stock terlebih dahulu sebelum order\r\nTerimakasih', 'https://www.bukalapak.com/p/komputer/hardware/vga/1sioni9-jual-vga-nvidia-asus-strix-gtx-1070-8gb-oc-triple-fan?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=1&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(16, 'ASUS GTX 950 2GB GDDR5 ', '2GB 128Bit GDDR5\r\nDirectX 12\r\nHDMI,DVI,VGA\r\nTanpan power pin tambahan\r\nPower suplay minimal 450W 80+\r\nGame Terbaru 2019 Libas Semua\r\n\r\nLike New 99% kelihatan seperti barang baru\r\n100% orginal products\r\nKelengkapan Unit vga aja\r\nDriver download versi terbaru dari invidia, Share link aja di whatsapp buat yang gak ngerti\r\nBerat sudah termasuk packing aman\r\n2nd 100% Berfungsi dengan baik, Garansi Personal 7 Hari.\r\n\r\n=====================\r\nPROMO JUGA NICH GAN...!!!\r\nREADY Akun Point Blank Beyond Limits\r\nMulai Dari Pangkat Trainee / Tengkorak S/D Brigadir / Bintang Satu READY\r\nInfo Lebih Lanjut Silahkan Hub Kami Ya Via Chatt BukaLapak...Trimakasish', 'https://www.bukalapak.com/p/komputer/hardware/vga/mhthpc-jual-asus-gtx-950-2gb-gddr5?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=0&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(17, 'Jual VGA Card NVIDIA ASUS ROG STRIX-GTX1060-06G GDDR5 OC 6GB Nvidia Graphic ', '| 1873 MHz boost clock in OC mode for outstanding performance and gaming experience.\r\n| DirectCU III with Patented Wing-Blade Fansfor 30% cooler and 3X quieter performance.\r\n| ASUS FanConnectfeatures 4-pin GPU-controlled headers connected to system fans for optimal thermal performance.\r\n| Industry Only Auto-Extreme Technology with Super Alloy Power IIdelivers premium quality and best reliability.\r\n| Aura RGB Lightingto express personalized gaming style.\r\n| VR-friendly HDMI portsfor immersive virtual reality experiences.\r\n|GPU Tweak II with Xsplit Gamecasterprovides intuitive performance tweaking and lets you stream your gameplay instantly.\r\nNVIDIA ANSELfor a revolutionary new way to capture in-game screenshots.\r\nNVIDIA GameWorks\'provides an interactive and cinematic experience, as well as incredibly smooth gameplay.\r\n\r\nSPESIFIKASI\r\nMemory Size: 6GB\r\nChipset: Nvidia GeForce GTX 1060\r\nMemory Interface: 192-bit\r\nEngine Clock: 1645 Mhz\r\nMemory Clock: 8208 Mhz (GDDR5)\r\nOutput: 1x DVI-D | 2x HDMI | 2x DP | HDCP Support', 'https://www.bukalapak.com/p/komputer/hardware/vga/1pgfkvs-jual-vga-card-nvidia-asus-rog-strix-gtx1060-06g-gddr5-oc-6gb-nvidia-graphic?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=9&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(18, 'VGA asus EAH5770 1gb 128bit ddr5 ', 'VGA Asus EAH5770 CUcore 1gb 128bit drr5, bekas pemakaian pribadi. dalam keadaan mati, ga tau kenapa setelah mati lampu berturut2 4x dlm 1 malam.\r\n\r\nno garansi, buat yg ngerti aja benerinya. trims', 'https://www.bukalapak.com/p/komputer/hardware/vga/9whq3u-jual-vga-asus-eah5770-1gb-128bit-ddr5?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=14&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(19, 'VGA Card ASUS PH-GTX1050-2G GDDR5 2GB GDDR5 Nvidia Graphic Gaming ', '| New NVIDIA Pascal architecture delivers improved performance and power efficiency\r\n| Classic and modern games at 1080p @ 60 FPS\r\n| Fast, smooth, power-efficient gaming Clock: 7008 MHz\r\n| Plug and play design requires no PCIe power connectors for easy graphics upgrade\r\n| Phoenix Double-ball Bearing Cooling Fan provides superior airflow with 2x longer lifespan\r\n| Auto-Extreme Technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run faster and last longer than reference\r\n| GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface\r\n\r\nSPESIFIKASI\r\nMemory Size: 2 GB\r\nChipset: Nvidia GeForce GTX 1050\r\nMemory Interface: 128-bit\r\nEngine Clock: 1290 Mhz\r\nMemory Clock: 7008 Mhz (GDDR5)\r\nOutput: 1x DVI-D | 1x HDMI | 1x DP | HDCP Support', 'https://www.bukalapak.com/p/komputer/hardware/vga/1pgczz7-jual-vga-card-asus-ph-gtx1050-2g-gddr5-2gb-gddr5-nvidia-graphic-gaming?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=12&cf=1&ssa=0&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0'),
+(20, 'VGA ASUS Cerberus GeForce GTX 1070 Ti 8GB GDDR5 CERBERUS-GTX1070TI-8G ', 'NOTE : SEBELUM DI ORDER DIHARAPKAN DISKUSI UNTUK CHECK STOCK BARANG TERSEBUT, TERIMA KASIH ATAS PERHATIAN AGAN2ASUS Cerberus GeForce GTX 1070 Ti 8GB GDDR5 with rigorous testing for enhanced reliability and performance. NVIDIA G-SYNC Monitors and laptops that feature NVIDIA G-SYNCTM technology. NVIDIA ANSEL for a revolutionary new way to capture in-game screenshots. NVIDIA GameWorks provides an interactive and cinematic experience, as well as incredibly smooth gameplay. Extensively tested with the latest chart-topping game titles like League of Legends, Overwatch and PlayerUnknowns Battlegrounds. A strong metal backplate reinforces the circuit board and is a striking outward mark of Cerberuss role as a powerful guardian. Patented Wing-Blade 0dB Fans for max air flow with 105% more air pressure. Play in silence with 0dB fans. IP5X-Certified Fans are dust resistant for longer fan lifespan. Industry Only Auto-Extreme Technology with Super Alloy Power II delivers premium quality and superior reliability. VR-friendly HDMI ports let you enjoy VR experiences anytime without having to swap cables. GPU Tweak II with XSplit Gamecaster provides intuitive performance tweaking and real-time streaming.Graphics EngineNVIDIA GeForce GTX 1070 TIBus StandardPCI Express 3.0OpenGLOpenGL4.5Video MemoryGDDR5 8GBEngine ClockOC Mode - GPU Boost Clock : 1721 MHz , GPU Base Clock : 1645 MHzGaming Mode (Default) - GPU Boost Clock : 1683 MHz , GPU Base Clock : 1607 MHzCUDA Core2432Memory Clock8008 MHzMemory Interface256-bitResolutionDigital Max Resolution:7680x4320InterfaceDVI Output : Yes x 1 (Native) (DVI-D)HDMI Output : Yes x 2 (Native) (HDMI 2.0b)Display Port : Yes x 2 (DisplayPort 1.4)HDCP Support : YesPower Connectors1 x 8-pinAccessories1 x DVD1 x Quick GuideSoftwareASUS GPU Tweak II & DriverDimensions10.63 \" x 4.76 \" x 2.01 \" Inch27 x 12.08 x5.1 Centimeter', 'https://www.bukalapak.com/p/komputer/hardware/vga/fouc9a-jual-vga-asus-cerberus-geforce-gtx-1070-ti-8gb-gddr5-cerberus-gtx1070ti-8g?from=bhlm&keyword=&funnel=omnisearch&product_owner=normal_seller&pos=19&cf=1&ssa=1&sort_origin=last_relist_at%3Adesc&search_sort_default=false&promoted=0');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `stopword`
+-- Table structure for table `stopword`
 --
 
 CREATE TABLE `stopword` (
@@ -71,7 +71,7 @@ CREATE TABLE `stopword` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `stopword`
+-- Dumping data for table `stopword`
 --
 
 INSERT INTO `stopword` (`stopword`) VALUES
@@ -824,7 +824,7 @@ INSERT INTO `stopword` (`stopword`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `token`
+-- Table structure for table `token`
 --
 
 CREATE TABLE `token` (
@@ -836,368 +836,27 @@ CREATE TABLE `token` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `token`
---
-
-INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
-('1', '1', '0', 'cocok', '1'),
-('1', '4', '0', 'jenis', '1'),
-('1', '5', '0', 'kursi', '1'),
-('1', '6', '0', 'kerja', '1'),
-('1', '9', '0', 'kursi', '1'),
-('1', '12', '0', 'ganti', '1'),
-('1', '13', '0', 'roda', '1'),
-('1', '14', '0', 'serasa', '1'),
-('1', '18', '0', 'rodakursi', '1'),
-('1', '19', '0', 'roda', '1'),
-('1', '20', '0', 'murahmeriah', '1'),
-('1', '21', '0', 'surabaya', '1'),
-('1', '22', '0', 'ootd', '1'),
-('2', '1', '0', 'roda', '1'),
-('2', '2', '0', 'skk', '1'),
-('2', '3', '0', 'set', '1'),
-('2', '4', '0', 'isi', '1'),
-('2', '5', '0', 'pcs', '1'),
-('2', '6', '0', 'tipe', '1'),
-('2', '7', '0', 'baut', '1'),
-('2', '8', '0', 'diameter', '1'),
-('2', '9', '0', 'roda', '1'),
-('2', '10', '0', 'cm', '1'),
-('2', '11', '0', 'bahan', '1'),
-('2', '12', '0', 'roda', '1'),
-('2', '13', '0', 'karet', '1'),
-('2', '17', '0', 'etalase', '1'),
-('2', '18', '0', 'kursi', '1'),
-('2', '19', '0', 'sofa', '1'),
-('2', '20', '0', 'meja', '1'),
-('2', '21', '0', 'kaki', '1'),
-('2', '22', '0', 'kulkas', '1'),
-('2', '26', '0', 'kwalitas', '1'),
-('3', '1', '0', 'kursi', '1'),
-('3', '2', '0', 'kerja', '1'),
-('3', '4', '0', 'roda', '1'),
-('3', '6', '0', 'pilihan', '1'),
-('3', '7', '0', 'kursi', '1'),
-('3', '8', '0', 'kerja', '1'),
-('3', '10', '0', 'beroda', '1'),
-('3', '14', '0', 'beli', '1'),
-('3', '16', '0', 'online', '1'),
-('3', '18', '0', 'iprice', '1'),
-('3', '19', '0', 'indonesia', '1'),
-('3', '21', '0', 'savello', '1'),
-('3', '22', '0', 'office', '1'),
-('3', '23', '0', 'chair', '1'),
-('3', '24', '0', 'trinity', '1'),
-('3', '25', '0', 'dx', '1'),
-('4', '1', '0', 'oct', '1'),
-('4', '2', '0', 'kursi', '1'),
-('4', '3', '0', 'kantor', '1'),
-('4', '6', '0', 'sulit', '1'),
-('4', '7', '0', 'digerakkan', '1'),
-('4', '13', '0', 'roda', '1'),
-('4', '14', '0', 'kursinya', '1'),
-('4', '15', '0', 'lho', '1'),
-('4', '16', '0', 'gudang', '1'),
-('4', '17', '0', 'furniture', '1'),
-('4', '19', '0', 'memaparkan', '1'),
-('5', '1', '0', 'rangka', '1'),
-('5', '2', '0', 'kursi', '1'),
-('5', '3', '0', 'terbuat', '1'),
-('5', '5', '0', 'material', '1'),
-('5', '6', '0', 'aluminium', '1'),
-('5', '8', '0', 'pijakan', '1'),
-('5', '9', '0', 'kaki', '1'),
-('5', '12', '0', 'dilipat', '1'),
-('5', '14', '0', 'roda', '1'),
-('5', '17', '0', 'mudah', '1'),
-('5', '18', '0', 'dipindahkan', '1'),
-('5', '19', '0', 'kursi', '1'),
-('5', '20', '0', 'pispot', '1'),
-('5', '23', '0', 'dilengkapi', '1'),
-('6', '1', '0', 'jual', '1'),
-('6', '2', '0', 'kursi', '1'),
-('6', '3', '0', 'kantor', '1'),
-('6', '4', '0', 'ergosit', '1'),
-('6', '5', '0', 'terbaru', '1'),
-('6', '6', '0', 'daftar', '1'),
-('6', '7', '0', 'harga', '1'),
-('6', '8', '0', 'terupdate', '1'),
-('6', '9', '0', 'terbaru', '1'),
-('6', '10', '0', 'harga', '1'),
-('6', '11', '0', 'promo', '1'),
-('6', '12', '0', 'diskon', '1'),
-('6', '13', '0', 'ergosit', '1'),
-('6', '14', '0', 'castor', '1'),
-('6', '15', '0', 'yc', '1'),
-('6', '16', '0', 'part', '1'),
-('6', '18', '0', 'roda', '1'),
-('6', '19', '0', 'kursi', '1'),
-('6', '20', '0', 'kantor', '1'),
-('6', '21', '0', 'pcs', '1'),
-('7', '1', '0', 'lihat', '1'),
-('7', '2', '0', 'katalog', '1'),
-('7', '3', '0', 'kursi', '1'),
-('7', '4', '0', 'kantor', '1'),
-('7', '5', '0', 'ikea', '1'),
-('7', '7', '0', 'keperluan', '1'),
-('7', '8', '0', 'bisnis', '1'),
-('7', '10', '0', 'kursi', '1'),
-('7', '11', '0', 'konferensi', '1'),
-('7', '13', '0', 'roda', '1'),
-('7', '14', '0', 'veneer', '1'),
-('7', '15', '0', 'kayu', '1'),
-('7', '16', '0', 'ash', '1'),
-('7', '17', '0', 'diwarnai', '1'),
-('7', '18', '0', 'hitam', '1'),
-('7', '19', '0', 'gunnared', '1'),
-('7', '20', '0', 'abu', '1'),
-('7', '21', '0', 'abu', '1'),
-('7', '22', '0', 'tua', '1'),
-('7', '23', '0', 'rp', '1'),
-('8', '1', '0', 'home', '1'),
-('8', '2', '0', 'products', '1'),
-('8', '3', '0', 'tagged', '1'),
-('8', '4', '0', 'jual', '1'),
-('8', '5', '0', 'kursi', '1'),
-('8', '6', '0', 'kantor', '1'),
-('8', '7', '0', 'roda', '1'),
-('8', '8', '0', 'filter', '1'),
-('8', '9', '0', 'showing', '1'),
-('8', '10', '0', 'the', '1'),
-('8', '11', '0', 'single', '1'),
-('8', '12', '0', 'result', '1'),
-('8', '13', '0', 'default', '1'),
-('8', '14', '0', 'sorting', '1'),
-('8', '15', '0', 'sort', '1'),
-('8', '16', '0', 'by', '1'),
-('8', '17', '0', 'popularity', '1'),
-('8', '18', '0', 'sort', '1'),
-('8', '19', '0', 'by', '1'),
-('8', '20', '0', 'average', '1'),
-('8', '21', '0', 'rating', '1'),
-('8', '22', '0', 'sort', '1'),
-('8', '23', '0', 'by', '1'),
-('8', '24', '0', 'latest', '1'),
-('8', '25', '0', 'sort', '1'),
-('8', '26', '0', 'by', '1'),
-('9', '3', '0', 'perusahaan', '1'),
-('9', '6', '0', 'kursi', '1'),
-('9', '7', '0', 'chitose', '1'),
-('9', '8', '0', 'tipe', '1'),
-('9', '9', '0', 'na', '1'),
-('9', '18', '0', 'dibeli', '1'),
-('9', '19', '0', 'castor', '1'),
-('9', '20', '0', 'roda', '1'),
-('9', '22', '0', 'kursi', '1'),
-('9', '23', '0', 'tipe', '1'),
-('10', '1', '0', 'toko', '1'),
-('10', '2', '0', 'penjual', '1'),
-('10', '3', '0', 'alat', '1'),
-('10', '4', '0', 'bantu', '1'),
-('10', '5', '0', 'kursi', '1'),
-('10', '6', '0', 'kamar', '1'),
-('10', '7', '0', 'mandi', '1'),
-('10', '8', '0', 'pasien', '1'),
-('10', '10', '0', 'bab', '1'),
-('10', '12', '0', 'harga', '1'),
-('10', '14', '0', 'terjangkau', '1'),
-('10', '15', '0', 'spesifikasi', '1'),
-('10', '16', '0', 'kursi', '1'),
-('10', '17', '0', 'kamar', '1'),
-('10', '18', '0', 'mandi', '1'),
-('10', '21', '0', 'detail', '1'),
-('10', '24', '0', 'website', '1'),
-('11', '1', '0', 'beli', '1'),
-('11', '2', '0', 'kursi', '1'),
-('11', '3', '0', 'roda', '1'),
-('11', '4', '0', 'online', '1'),
-('11', '5', '0', 'terdekat', '1'),
-('11', '7', '0', 'semarang', '1'),
-('11', '8', '0', 'berkualitas', '1'),
-('11', '10', '0', 'harga', '1'),
-('11', '11', '0', 'murah', '1'),
-('11', '12', '0', 'terbaru', '1'),
-('11', '14', '0', 'tokopedia', '1'),
-('11', '15', '0', 'pembayaran', '1'),
-('11', '16', '0', 'mudah', '1'),
-('11', '17', '0', 'pengiriman', '1'),
-('11', '18', '0', 'cepat', '1'),
-('11', '20', '0', 'cicil', '1'),
-('12', '1', '0', 'beli', '1'),
-('12', '2', '0', 'kursi', '1'),
-('12', '3', '0', 'roda', '1'),
-('12', '4', '0', 'standar', '1'),
-('12', '5', '0', 'online', '1'),
-('12', '6', '0', 'berkualitas', '1'),
-('12', '8', '0', 'harga', '1'),
-('12', '9', '0', 'murah', '1'),
-('12', '10', '0', 'terbaru', '1'),
-('12', '12', '0', 'tokopedia', '1'),
-('12', '13', '0', 'pembayaran', '1'),
-('12', '14', '0', 'mudah', '1'),
-('12', '15', '0', 'pengiriman', '1'),
-('12', '16', '0', 'cepat', '1'),
-('12', '18', '0', 'cicil', '1'),
-('13', '3', '0', 'kursi', '1'),
-('13', '4', '0', 'roda', '1'),
-('13', '5', '0', 'merek', '1'),
-('13', '9', '0', 'dijual', '1'),
-('13', '11', '0', 'bukalapak', '1'),
-('13', '14', '0', 'merk', '1'),
-('13', '16', '0', 'harga', '1'),
-('13', '17', '0', 'kursi', '1'),
-('13', '18', '0', 'roda', '1'),
-('13', '19', '0', 'terbaik', '1'),
-('13', '20', '0', 'jenis', '1'),
-('13', '21', '0', 'kursi', '1'),
-('13', '22', '0', 'roda', '1'),
-('13', '23', '0', 'harga', '1'),
-('13', '24', '0', 'kursi', '1'),
-('13', '25', '0', 'roda', '1'),
-('13', '26', '0', 'standar', '1'),
-('13', '27', '0', 'sella', '1'),
-('14', '1', '0', 'belanja', '1'),
-('14', '2', '0', 'online', '1'),
-('14', '3', '0', 'kursi', '1'),
-('14', '4', '0', 'roda', '1'),
-('14', '5', '0', 'medis', '1'),
-('14', '6', '0', 'lipat', '1'),
-('14', '7', '0', 'kursi', '1'),
-('14', '8', '0', 'roda', '1'),
-('14', '9', '0', 'traveling', '1'),
-('14', '11', '0', 'brand', '1'),
-('14', '12', '0', 'terbaik', '1'),
-('14', '13', '0', 'termurah', '1'),
-('14', '15', '0', 'lazada', '1'),
-('14', '16', '0', 'big', '1'),
-('14', '17', '0', 'sale', '1'),
-('14', '18', '0', 'gratis', '1'),
-('14', '19', '0', 'ongkir', '1'),
-('14', '20', '0', 'voucher', '1'),
-('14', '21', '0', 'diskon', '1'),
-('15', '1', '0', 'daftar', '1'),
-('15', '2', '0', 'kursi', '1'),
-('15', '3', '0', 'roda', '1'),
-('15', '4', '0', 'terbaik', '1'),
-('15', '6', '0', 'murah', '1'),
-('15', '7', '0', 'dijual', '1'),
-('15', '9', '0', 'indonesia', '1'),
-('15', '10', '0', 'cek', '1'),
-('15', '11', '0', 'beragam', '1'),
-('15', '12', '0', 'variasi', '1'),
-('15', '13', '0', 'aksesoris', '1'),
-('15', '15', '0', 'harga', '1'),
-('15', '16', '0', 'terbaru', '1'),
-('15', '18', '0', 'priceprice', '1'),
-('15', '19', '0', 'com', '1'),
-('16', '2', '0', 'toko', '1'),
-('16', '3', '0', 'kursi', '1'),
-('16', '4', '0', 'roda', '1'),
-('16', '6', '0', 'semarang', '1'),
-('16', '8', '0', 'jual', '1'),
-('16', '9', '0', 'kursi', '1'),
-('16', '10', '0', 'roda', '1'),
-('16', '11', '0', 'murah', '1'),
-('16', '13', '0', 'lengkap', '1'),
-('16', '15', '0', 'beralamat', '1'),
-('16', '17', '0', 'ruko', '1'),
-('16', '18', '0', 'siliwangi', '1'),
-('16', '19', '0', 'square', '1'),
-('16', '20', '0', 'kav', '1'),
-('16', '21', '0', 'jl', '1'),
-('16', '22', '0', 'jenderal', '1'),
-('16', '23', '0', 'sudirman', '1'),
-('16', '24', '0', 'no', '1'),
-('17', '1', '0', 'jual', '1'),
-('17', '2', '0', 'kursi', '1'),
-('17', '3', '0', 'roda', '1'),
-('17', '4', '0', 'online', '1'),
-('17', '5', '0', 'terbaru', '1'),
-('17', '6', '0', 'harga', '1'),
-('17', '7', '0', 'murah', '1'),
-('17', '8', '0', 'berkualitas', '1'),
-('17', '9', '0', 'beli', '1'),
-('17', '10', '0', 'online', '1'),
-('17', '12', '0', 'blibli', '1'),
-('17', '13', '0', 'com', '1'),
-('17', '14', '0', 'produk', '1'),
-('17', '15', '0', 'original', '1'),
-('17', '16', '0', 'bergaransi', '1'),
-('17', '17', '0', 'gratis', '1'),
-('17', '18', '0', 'ongkir', '1'),
-('17', '19', '0', 'cicilan', '1'),
-('18', '1', '0', 'jual', '1'),
-('18', '2', '0', 'kursi', '1'),
-('18', '3', '0', 'roda', '1'),
-('18', '4', '0', 'murah', '1'),
-('18', '5', '0', 'harga', '1'),
-('18', '6', '0', 'grosir', '1'),
-('18', '7', '0', 'tersedia', '1'),
-('18', '8', '0', 'jenis', '1'),
-('18', '9', '0', 'elektrik', '1'),
-('18', '10', '0', 'standard', '1'),
-('18', '15', '0', 'merek', '1'),
-('18', '16', '0', 'ternama', '1'),
-('18', '17', '0', 'cek', '1'),
-('18', '18', '0', 'daftar', '1'),
-('18', '19', '0', 'harga', '1'),
-('18', '20', '0', 'kursi', '1'),
-('18', '21', '0', 'roda', '1'),
-('18', '22', '0', 'terbaru', '1'),
-('19', '1', '0', 'kursi', '1'),
-('19', '2', '0', 'roda', '1'),
-('19', '4', '0', 'alat', '1'),
-('19', '5', '0', 'bantu', '1'),
-('19', '9', '0', 'orang', '1'),
-('19', '11', '0', 'mengalami', '1'),
-('19', '12', '0', 'kesulitan', '1'),
-('19', '13', '0', 'berjalan', '1'),
-('19', '15', '0', 'kaki', '1'),
-('19', '17', '0', 'dikareanakan', '1'),
-('19', '19', '0', 'penyakit', '1'),
-('19', '20', '0', 'cedera', '1'),
-('20', '1', '0', 'temukan', '1'),
-('20', '2', '0', 'kursi', '1'),
-('20', '3', '0', 'roda', '1'),
-('20', '5', '0', 'semarang', '1'),
-('20', '6', '0', 'kota', '1'),
-('20', '7', '0', 'dapatkan', '1'),
-('20', '10', '0', 'olx', '1'),
-('20', '11', '0', 'co', '1'),
-('20', '12', '0', 'id', '1'),
-('20', '13', '0', 'jutaan', '1'),
-('20', '14', '0', 'iklan', '1'),
-('20', '15', '0', 'kursi', '1'),
-('20', '16', '0', 'roda', '1'),
-('20', '17', '0', 'terbaru', '1'),
-('20', '18', '0', 'ditayangkan', '1'),
-('20', '20', '0', 'harinya', '1'),
-('20', '22', '0', 'olx', '1'),
-('20', '23', '0', 'murah', '1'),
-('20', '25', '0', 'harga', '1');
-
---
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `berita`
+-- Indexes for table `berita`
 --
 ALTER TABLE `berita`
   ADD KEY `hasil` (`id`);
 
 --
--- Indeks untuk tabel `token`
+-- Indexes for table `token`
 --
 ALTER TABLE `token`
   ADD KEY `no` (`id`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `berita`
+-- AUTO_INCREMENT for table `berita`
 --
 ALTER TABLE `berita`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
